@@ -1,0 +1,29 @@
+.vote-button {
+    transition: all 0.3s ease;
+  }
+  
+  .vote-button.disabled {
+    background-color: #d6d6d6; /* Light gray */
+    color: #8a8a8a; /* Darker gray */
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+  
+  .list-group-item {
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+  
+  .list-group-item.active {
+    background-color: #28a745; /* Success green */
+    color: #fff; /* White text */
+  }
+  
+  .list-group-item:hover {
+    background-color: #f8f9fa; /* Light gray on hover */
+  }
+  
+  .list-group-item[style*="not-allowed"] {
+    color: #ccc; /* Disabled gray text */
+    pointer-events: none;
+  }
+  

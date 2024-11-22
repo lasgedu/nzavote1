@@ -1,0 +1,54 @@
+.custom-navbar {
+  position: fixed; /* Ensure the navbar is fixed at the top */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100; /* Ensure the navbar is above other elements */
+  background-color: rgb(21, 38, 99);
+  padding: 10px 30px;
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth transitions */
+}
+
+.custom-navbar.scrolled {
+  background-color: rgba(0, 0, 0, 0.8) !important; /* Dark background when scrolled */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow for better visibility */
+}
+
+.navbar-logo {
+  height: 50px; /* Adjust logo size */
+  transition: height 0.3s ease-in-out; /* Smooth resize */
+  margin-left: 70px;
+}
+
+.custom-navbar.scrolled .navbar-logo {
+  height: 40px; /* Smaller logo on scroll */
+}
+
+.navbar-nav .nav-link {
+  color: #fff !important; /* White text */
+  font-size: 1rem;
+  margin-right: 20px; /* Add spacing between links */
+  font-weight: 500;
+  transition: color 0.3s ease-in-out; /* Smooth hover effect */
+  margin-right: 70px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f0f0f0 !important; /* Lighter gray on hover */
+}
+
+.navbar-toggler {
+  border: none; /* Remove border around the toggle button */
+}
+
+.navbar-toggler-icon {
+  background-color: #fff; /* White toggle icon */
+  border-radius: 5px; /* Rounded corners for a sleek look */
+}
+
+.custom-navbar.scrolled .navbar-toggler-icon {
+  background-color: #ccc; /* Lighter toggle icon when scrolled */
+}
+html {
+  scroll-behavior: smooth;
+}

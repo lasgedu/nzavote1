@@ -1,0 +1,87 @@
+/* src/pages/Login.css */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background-color: #f4f4f9;
+}
+
+.login-form {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+  border-bottom: none; /* Ensure no border at the bottom */
+  outline: none;       /* Remove any outline if present */
+  text-decoration: none; /* Remove any underline styling */
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #0056b3;
+}
+
+.success-message {
+  color: #28a745;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Commented out the error-message style */
+.error-message {
+  color: transparent; /* Ensure the error message is invisible */
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Style for the login link below the register button */
+.login-link {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555555;
+}
+
+.login-link a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}

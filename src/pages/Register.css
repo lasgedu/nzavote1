@@ -1,0 +1,116 @@
+/* src/pages/Register.css */
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1rem;
+    background-color: #f4f4f9;
+}
+
+.register-form {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.register-form h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #333333;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.register-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #555555;
+    font-weight: 500;
+}
+
+.register-form input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+}
+
+.register-form input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.register-form button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.register-form button:hover {
+    background-color: #0056b3;
+    transform: scale(1.02);
+}
+
+.success-message,
+.error-message {
+    text-align: center;
+    font-weight: bold;
+    padding: 0.75rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.success-message {
+    color: #ffffff;
+    background-color: #28a745;
+}
+
+.error-message {
+    color: #ffffff;
+    background-color: #dc3545;
+}
+
+/* Add some basic animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+/* Style for the login link below the register button */
+.Register-link {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #555555;
+  }
+  
+  .Register-link a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .Register-link a:hover {
+    text-decoration: underline;
+  }
+  
