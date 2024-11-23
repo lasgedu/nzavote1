@@ -15,7 +15,7 @@ NzaVote is a secure and scalable web application designed to streamline the voti
 - **Frontend**: React.js  
 - **Backend**: Node.js with Express  
 - **Database**: MongoDB  
-- **Hosting**: AWS
+- **Hosting**: Render
 
 - ## Deployed Website  
 Check out the live application here: [NzaVote](https://nzavote1.onrender.com/)
@@ -27,7 +27,7 @@ Check out the live application here: [NzaVote](https://nzavote1.onrender.com/)
    ```  
 2. Navigate to the project directory:  
    ```bash  
-   cd NzaVote  
+   cd NzaVote1  
    ```  
 3. Install dependencies:  
    ```bash  
