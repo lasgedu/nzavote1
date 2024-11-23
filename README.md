@@ -23,7 +23,7 @@ Check out the live application here: [NzaVote](https://nzavote1.onrender.com/)
 ## Installation  
 1. Clone the repository:  
    ```bash  
-   git clone https://github.com/lasgedu/NzaVote.git  
+   git clone https://github.com/lasgedu/NzaVote1.git  
    ```  
 2. Navigate to the project directory:  
    ```bash  
