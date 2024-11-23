@@ -50,7 +50,7 @@ const Vote = () => {
 
       // Notify user with backend response message
       toast.success(response.data.message);
-      setHasVoted(true); // Mark as voted only on success
+      setHasVoted(true);
     } catch (error) {
       console.error("Error while voting:", error);
 
@@ -78,8 +78,11 @@ const Vote = () => {
         ))}
       </ul>
       <button
-        className={`btn btn-success mt-3 vote-button`}
-        onClick={handleVote}
+        className={`btn btn-success mt-3 vote-button ${hasVoted ? "disabled" : ""}`}
+        onClick={() => {
+          console.log("Vote button clicked");
+          handleVote();
+        }}
         disabled={hasVoted || loading}
       >
         {loading ? "Submitting..." : hasVoted ? "You have already voted" : "Submit Vote"}
@@ -89,3 +92,4 @@ const Vote = () => {
 };
 
 export default Vote;
+  
