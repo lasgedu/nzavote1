@@ -19,7 +19,7 @@ NzaVote is a secure and scalable web application designed to streamline the voti
 
 - ## Deployed Website  
 Check out the live application here: [NzaVote](https://nzavote1.onrender.com/)
-
+(if it keeps loading, click the stop loading button and reload again)
 ## Installation  
 1. Clone the repository:  
    ```bash  
